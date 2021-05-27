@@ -9,6 +9,7 @@ import { AddCircleOutlined, SubjectOutlined } from "@material-ui/icons";
 import { useHistory, useLocation } from "react-router";
 import AppBar from "@material-ui/core/AppBar";
 import ToolBar from "@material-ui/core/ToolBar";
+import Avatar from "@material-ui/core/Avatar";
 import { format } from "date-fns";
 const drawerWidth = 240;
 const useStyles = makeStyles((theme) => {
@@ -40,6 +41,9 @@ const useStyles = makeStyles((theme) => {
     date: {
       flexGrow: 1,
     },
+    avatar: {
+      marginLeft: theme.spacing(2),
+    },
   };
 });
 const Layout = ({ children }) => {
@@ -70,6 +74,7 @@ const Layout = ({ children }) => {
             Today is {format(new Date(), "do MMMM Y")}
           </Typography>{" "}
           <Typography>Ramzi </Typography>
+          <Avatar src="" className={classes.avatar} />
         </ToolBar>
       </AppBar>
 
