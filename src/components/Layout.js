@@ -11,6 +11,7 @@ import AppBar from "@material-ui/core/AppBar";
 import ToolBar from "@material-ui/core/ToolBar";
 import Avatar from "@material-ui/core/Avatar";
 import { format } from "date-fns";
+
 const drawerWidth = 240;
 const useStyles = makeStyles((theme) => {
   return {

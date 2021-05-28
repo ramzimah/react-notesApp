@@ -1,12 +1,6 @@
 {
   "notes": [
     {
-      "title": "Yoshi's birthday bash",
-      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      "category": "reminders",
-      "id": 1
-    },
-    {
       "title": "pfe backend",
       "details": "i should continue working on the backend part of my pfe",
       "category": "work",
@@ -23,6 +17,18 @@
       "details": "jrjrj",
       "category": "money",
       "id": 4
+    },
+    {
+      "title": "test",
+      "details": "hello",
+      "category": "todos",
+      "id": 5
+    },
+    {
+      "title": "hi",
+      "details": "cv chwiya",
+      "category": "reminders",
+      "id": 6
     }
   ]
 }
